@@ -1,7 +1,8 @@
 import Link from "next/link";
 import SvgLogo from "./ui/svg/SvgLogo";
 
-export default function Logo({ title }: { title: string }) {
+export default function Logo() {
+// { title }: { title: string }
   return (
     <Link
       href="/"
