@@ -32,7 +32,9 @@ export default async function Header({
           <RoomMobileNav roomsData={roomsData} />
         </div>
         <div className="absolute top-6.5 left-1/2 flex -translate-x-1/2 items-center justify-center">
-          <Logo title={siteSettings?.title || "Meeting Place"} />
+          <Logo
+          //  title={siteSettings?.title || "Meeting Place"}
+          />
         </div>
         <div className="flex justify-end">
           <BookingButton className="hover:text-accent-500 px-6 py-2 text-lg transition-colors duration-200 sm:px-8 lg:px-10 lg:text-xl">
