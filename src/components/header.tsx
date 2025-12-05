@@ -24,17 +24,15 @@ export default async function Header({
       )}
       {...props}
     >
-      <div className="max-w-8xl relative mx-auto flex min-h-20 items-center justify-between lg:min-h-[7.5rem]">
-        <div className="hidden text-[1.25rem] leading-[1.875rem] lg:block lg:pl-10 xl:pl-0">
+      <div className="max-w-8xl relative mx-auto flex min-h-20 items-center justify-between lg:min-h-30">
+        <div className="hidden text-[1.25rem] leading-7.5 lg:block lg:pl-10 xl:pl-0">
           {siteSettings?.streetAddress}
         </div>
         <div className="lg:hidden">
           <RoomMobileNav roomsData={roomsData} />
         </div>
         <div className="absolute top-6.5 left-1/2 flex -translate-x-1/2 items-center justify-center">
-          <Logo
-          //  title={siteSettings?.title || "Meeting Place"}
-          />
+          <Logo title={siteSettings?.title || "Meeting Place"} />
         </div>
         <div className="flex justify-end">
           <BookingButton className="hover:text-accent-500 px-6 py-2 text-lg transition-colors duration-200 sm:px-8 lg:px-10 lg:text-xl">

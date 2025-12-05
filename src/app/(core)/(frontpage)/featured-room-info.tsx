@@ -25,12 +25,12 @@ export default function FeaturedRoomInfo({
       className={cn(
         "space-y-6 sm:space-y-4 md:space-y-6",
         variant === "lg" &&
-          "space-y-10 sm:space-y-10 md:space-y-12 lg:space-y-[5.625rem]",
+          "space-y-10 sm:space-y-10 md:space-y-12 lg:space-y-22.5",
       )}
     >
       <ul
         className={cn(
-          "font-clarika-medium grid grid-cols-2 gap-x-[0.3125rem] gap-y-1 text-sm lg:text-xl",
+          "font-clarika-medium grid grid-cols-2 gap-x-1.25 gap-y-1 text-sm lg:text-xl",
           variant === "lg" && "gap-x-4",
         )}
       >

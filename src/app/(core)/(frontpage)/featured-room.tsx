@@ -55,7 +55,7 @@ export default function FeaturedRoom({
               <h1 className="absolute bottom-4 left-0 max-w-xs sm:hidden lg:block lg:max-w-2xl xl:max-w-4xl">
                 {name}
               </h1>
-              <div className="font-clarika-medium absolute top-[3.75rem] right-0 hidden w-[23.5rem] lg:block">
+              <div className="font-clarika-medium absolute top-15 right-0 hidden w-94 lg:block">
                 <ul className="space-y-2 font-medium">
                   <li className="capitalize">{roomType}</li>
                   <li>{formatCapacity(capacity)}</li>
@@ -64,7 +64,7 @@ export default function FeaturedRoom({
                     {formatLowestPrice(prices.map((price) => price.price))}
                   </li>
                 </ul>
-                <div className="mt-[1.3125rem] flex gap-3">
+                <div className="mt-5.25 flex gap-3">
                   <Button variant="outline" asChild>
                     <Link className="border-white" href={`/${slug}`}>
                       Learn more
@@ -115,9 +115,7 @@ export default function FeaturedRoom({
             blurDataURL={mainImage.asset?.metadata?.lqip || ""}
           />
 
-          <div
-            className={cn("grid space-y-6 lg:items-center lg:pl-[8.625rem]")}
-          >
+          <div className={cn("grid space-y-6 lg:items-center lg:pl-34.5")}>
             <FadeInOnScroll>
               <div className="space-y-4 lg:space-y-6">
                 <h2>{name}</h2>

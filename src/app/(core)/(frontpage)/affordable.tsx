@@ -8,9 +8,7 @@ export default function Affordable({ text }: { text?: string }) {
           {text}
         </h2>
       )}
-      <SvgOrnament
-      // className="lg:h-[2.3125rem] lg:w-[5.5625rem]"
-      />
+      <SvgOrnament className="lg:h-9.25" />
     </section>
   );
 }
