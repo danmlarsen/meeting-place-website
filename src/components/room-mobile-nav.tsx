@@ -56,7 +56,7 @@ export default function RoomMobileNav({
               initial="closed"
               animate="open"
               variants={listVariant}
-              className="space-y-[1.125rem] sm:space-y-10"
+              className="space-y-4.5 sm:space-y-10"
             >
               {roomsData.map((roomData) => (
                 <RoomItem

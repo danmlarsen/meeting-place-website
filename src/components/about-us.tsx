@@ -32,7 +32,7 @@ export default async function AboutUs({
           width={238}
           height={310}
           quality={80}
-          className="h-auto w-[10.1875rem] object-cover sm:w-[10.9375rem] md:justify-self-start lg:w-[14.875rem]"
+          className="h-auto w-40.75 object-cover sm:w-43.75 md:justify-self-start lg:w-59.5"
           sizes="50vw"
         />
       </div>

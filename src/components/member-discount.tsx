@@ -18,8 +18,8 @@ export default async function MemberDiscount({
       )}
       {...props}
     >
-      <div className="flex flex-col justify-between gap-6 lg:min-h-[13.75rem] lg:gap-10">
-        <h2 className="max-w-sm md:max-w-[15.625rem] lg:max-w-full">
+      <div className="flex flex-col justify-between gap-6 lg:min-h-55 lg:gap-10">
+        <h2 className="max-w-sm md:max-w-62.5 lg:max-w-full">
           {memberDiscountData?.text}
         </h2>
         {!!memberDiscountData?.linkUrl && memberDiscountData?.linkText && (

@@ -22,7 +22,7 @@ export default async function BookingHelp() {
           width={238}
           height={310}
           quality={80}
-          className="h-[13.25rem] w-[10.1875rem] object-cover md:h-[14.25rem] md:w-[10.9375rem] md:justify-self-end lg:h-[19.375rem] lg:w-[14.875rem] lg:justify-self-center"
+          className="h-53 w-40.75 object-cover md:h-57 md:w-43.75 md:justify-self-end lg:h-77.5 lg:w-59.5 lg:justify-self-center"
           sizes="50vw"
           alt={bookingAssistanceData?.image?.alt || "Image missing description"}
         />

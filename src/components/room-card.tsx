@@ -23,7 +23,7 @@ export default function RoomCard({
   if (roomPage) {
     return (
       <Card className={cn("rounded-sm bg-transparent", className)} {...props}>
-        <CardContent className="grid min-h-[26.375rem] grid-rows-[auto_1fr_auto] gap-5 p-5 sm:min-h-[28.5625rem] sm:gap-6 lg:min-h-[37.6875rem] lg:p-6">
+        <CardContent className="grid min-h-105.5 grid-rows-[auto_1fr_auto] gap-5 p-5 sm:min-h-114.25 sm:gap-6 lg:min-h-150.75 lg:p-6">
           <h2>{name}</h2>
           <ul className="font-clarika-medium self-end text-sm sm:space-y-0.5 lg:text-lg">
             {/* <p className="capitalize">{category}</p> */}
@@ -40,7 +40,7 @@ export default function RoomCard({
             width={303}
             height={228}
             quality={80}
-            className="object-cover lg:max-w-[18.9375rem]"
+            className="object-cover lg:max-w-75.75"
             sizes="(max-width: 1024px) 50vw, 33vw"
             placeholder="blur"
             blurDataURL={mainImage.asset?.metadata?.lqip || ""}
@@ -51,7 +51,7 @@ export default function RoomCard({
   } else {
     return (
       <Card className={cn("bg-transparent", className)} {...props}>
-        <CardContent className="grid grid-cols-2 gap-4 sm:gap-6 lg:min-h-[37.6875rem] lg:grid-cols-1 lg:grid-rows-[auto_1fr_auto] lg:py-6">
+        <CardContent className="grid grid-cols-2 gap-4 sm:gap-6 lg:min-h-150.75 lg:grid-cols-1 lg:grid-rows-[auto_1fr_auto] lg:py-6">
           <h2 className="col-span-2 sm:col-span-1 sm:col-start-2 sm:row-start-1 lg:col-start-1">
             {name}
           </h2>
@@ -64,7 +64,7 @@ export default function RoomCard({
             width={600}
             height={450}
             quality={80}
-            className="w-full object-cover sm:row-span-2 lg:row-span-1 lg:max-w-[18.9375rem]"
+            className="w-full object-cover sm:row-span-2 lg:row-span-1 lg:max-w-75.75"
             sizes="(max-width: 1024px) 50vw, 33vw"
             placeholder="blur"
             blurDataURL={mainImage.asset?.metadata?.lqip || ""}

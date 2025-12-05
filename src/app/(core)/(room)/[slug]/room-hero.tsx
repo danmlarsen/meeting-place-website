@@ -67,7 +67,7 @@ export default function RoomHero({ roomData }: { roomData: TRoomMain }) {
     >
       <m.div
         variants={divVariant}
-        className="relative grid min-h-[24rem] sm:aspect-4/3 md:aspect-auto md:min-h-[40.1875rem] lg:min-h-lvh"
+        className="relative grid min-h-96 sm:aspect-4/3 md:aspect-auto md:min-h-160.75 lg:min-h-lvh"
       >
         <Image
           src={
@@ -90,13 +90,13 @@ export default function RoomHero({ roomData }: { roomData: TRoomMain }) {
             <m.h1
               variants={titleVariant}
               aria-hidden
-              className="z-10 lg:max-w-2xl xl:max-w-[50rem]"
+              className="z-10 lg:max-w-2xl xl:max-w-200"
             >
               {name}
             </m.h1>
             <m.ul
               variants={listVariant}
-              className="font-clarika-medium mb-6 w-[23.5rem] space-y-2 lg:text-[1.25rem] lg:leading-[1.875rem]"
+              className="font-clarika-medium mb-6 w-94 space-y-2 lg:text-[1.25rem] lg:leading-7.5"
             >
               <m.li variants={itemVariant} className="capitalize">
                 {roomType}
@@ -112,14 +112,14 @@ export default function RoomHero({ roomData }: { roomData: TRoomMain }) {
       </m.div>
       <m.div
         variants={divVariant}
-        className="grid gap-[7rem] px-4 pt-7 sm:grid-cols-[1fr_auto] sm:px-8 sm:pt-[2.1875rem] lg:hidden"
+        className="grid gap-28 px-4 pt-7 sm:grid-cols-[1fr_auto] sm:px-8 sm:pt-8.75 lg:hidden"
       >
         <m.h1 variants={titleVariant} aria-hidden>
           {name}
         </m.h1>
         <m.ul
           variants={listVariant}
-          className="font-clarika-medium space-y-1 text-sm md:w-[15.0625rem] md:space-y-2 md:pt-1.5"
+          className="font-clarika-medium space-y-1 text-sm md:w-60.25 md:space-y-2 md:pt-1.5"
         >
           <m.li variants={itemVariant} className="capitalize">
             {roomType}

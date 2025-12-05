@@ -28,7 +28,7 @@ export default async function HomePage() {
         <Hero />
 
         <FadeInOnScroll>
-          <div className="my-18 px-4 sm:px-8 md:mt-[7.875rem] md:mb-[9.3125rem] lg:mt-[8.5rem] lg:mb-[4.5rem] lg:px-10">
+          <div className="my-18 px-4 sm:px-8 md:mt-31.5 md:mb-37.25 lg:mt-34 lg:mb-18 lg:px-10">
             <div className="max-w-8xl mx-auto">
               <Affordable text={descriptionBlock?.text} />
             </div>
@@ -42,7 +42,7 @@ export default async function HomePage() {
 
         {!!otherRooms && otherRooms.length > 0 && (
           <div className="px-4 sm:px-8 lg:px-0">
-            <div className="mx-auto mt-11 max-w-[105rem] lg:my-16">
+            <div className="mx-auto mt-11 max-w-420 lg:my-16">
               <Rooms rooms={otherRooms} />
             </div>
           </div>

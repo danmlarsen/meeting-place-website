@@ -51,7 +51,7 @@ export default function RoomItem({
           className="object-cover"
         />
         <div className="space-y-0.5 sm:space-y-4">
-          <h2 className="text-[1.5rem] leading-[2rem] sm:text-[2rem] sm:leading-[2.5rem]">
+          <h2 className="text-[1.5rem] leading-8 sm:text-[2rem] sm:leading-10">
             {name}
           </h2>
           <p className="font-clarika-medium text-sm">

@@ -10,14 +10,14 @@ export default function Bomb({
   return (
     <div
       className={cn(
-        "group font-clarika relative grid size-[9.25rem] rounded-full text-base font-semibold lg:size-[11.25rem] lg:text-xl",
+        "group font-clarika relative grid size-37 rounded-full text-base font-semibold lg:size-45 lg:text-xl",
         className,
       )}
       {...props}
     >
       <SvgBomb
         className={cn(
-          "group-hover:fill-accent-500 absolute inset-0 z-[-1] transition duration-200 group-hover:scale-105 lg:size-[11.25rem]",
+          "group-hover:fill-accent-500 absolute inset-0 z-[-1] transition duration-200 group-hover:scale-105 lg:size-45",
           bombColor === "orange" && "fill-primary-700",
           bombColor === "green" && "fill-secondary-500",
         )}

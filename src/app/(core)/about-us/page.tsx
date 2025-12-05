@@ -25,7 +25,7 @@ export default async function AboutUsPage() {
             <div className="max-w-8xl mx-auto pt-44 sm:pt-41.5 lg:pt-72">
               <section className="grid gap-4.5 sm:grid-cols-2">
                 {aboutPageData?.heroTitle && (
-                  <h1 className="lg:text-[4rem] lg:leading-[4.5rem]">
+                  <h1 className="lg:text-[4rem] lg:leading-18">
                     {aboutPageData.heroTitle}
                   </h1>
                 )}
@@ -59,7 +59,7 @@ export default async function AboutUsPage() {
           </div>
         </FadeInOnScroll>
 
-        <div className="my-12 px-4 sm:my-16 sm:px-8 lg:mb-[5.5rem] lg:px-10">
+        <div className="my-12 px-4 sm:my-16 sm:px-8 lg:mb-22 lg:px-10">
           <div className="max-w-8xl mx-auto space-y-20">
             {aboutPageData?.textBlock && (
               <FadeInOnScroll>
@@ -72,7 +72,7 @@ export default async function AboutUsPage() {
             )}
 
             {aboutPageData?.images && (
-              <div className="grid gap-16 md:grid-cols-2 md:gap-[5.625rem]">
+              <div className="grid gap-16 md:grid-cols-2 md:gap-22.5">
                 {aboutPageData.images.map((image, index) =>
                   index % 2 === 0 ? (
                     <FadeInOnScroll key={index}>
@@ -87,7 +87,7 @@ export default async function AboutUsPage() {
                         width={776}
                         height={473}
                         quality={80}
-                        className="w-full object-cover pr-[3.75rem] md:pr-0"
+                        className="w-full object-cover pr-15 md:pr-0"
                         sizes="(max-width: 768px) 100vw, 50vw"
                       />
                     </FadeInOnScroll>
@@ -104,7 +104,7 @@ export default async function AboutUsPage() {
                         width={776}
                         height={473}
                         quality={80}
-                        className="w-full max-w-lg justify-self-end object-cover pl-[3.75rem] md:pl-0 lg:justify-self-center"
+                        className="w-full max-w-lg justify-self-end object-cover pl-15 md:pl-0 lg:justify-self-center"
                         sizes="(max-width: 768px) 100vw, 50vw"
                       />
                     </FadeInOnScroll>

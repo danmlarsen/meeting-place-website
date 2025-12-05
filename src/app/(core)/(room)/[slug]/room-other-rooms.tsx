@@ -26,11 +26,11 @@ export default function RoomOtherRooms({
           slidesToScroll: 1,
         }}
       >
-        <CarouselContent className="mx-auto max-w-[105rem] gap-4 px-4 sm:gap-6 sm:px-8 lg:gap-8 lg:px-10">
+        <CarouselContent className="mx-auto max-w-420 gap-4 px-4 sm:gap-6 sm:px-8 lg:gap-8 lg:px-10">
           {roomsData.map((room) => (
             <CarouselItem
               key={room.slug.current}
-              className="basis-[17.75rem] last-of-type:mr-4 sm:basis-[19.1875rem] sm:last-of-type:mr-8 lg:basis-[29.0625rem] lg:last-of-type:mr-10"
+              className="basis-71 last-of-type:mr-4 sm:basis-76.75 sm:last-of-type:mr-8 lg:basis-116.25 lg:last-of-type:mr-10"
             >
               <Link href={`/${room.slug.current}`}>
                 <RoomCard

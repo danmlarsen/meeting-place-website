@@ -17,7 +17,7 @@ export default function FooterConditional({
     <FadeInOnScroll>
       <div
         className={cn(
-          "grid gap-10.5 border-t pt-12 sm:gap-8 md:grid-cols-[1fr_auto_2fr] lg:min-h-[31.25rem] lg:gap-12 xl:grid-cols-[28.625rem_auto_1fr]",
+          "grid gap-10.5 border-t pt-12 sm:gap-8 md:grid-cols-[1fr_auto_2fr] lg:min-h-125 lg:gap-12 xl:grid-cols-[28.625rem_auto_1fr]",
           className,
         )}
         {...props}

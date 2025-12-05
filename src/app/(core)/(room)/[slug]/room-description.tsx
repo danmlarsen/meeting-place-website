@@ -12,7 +12,7 @@ export default function RoomDescription({
 }) {
   return (
     <section
-      className="grid gap-12 pb-10 sm:grid-cols-2 sm:pb-20.5 lg:pt-[10.3125rem] lg:pb-0"
+      className="grid gap-12 pb-10 sm:grid-cols-2 sm:pb-20.5 lg:pt-41.25 lg:pb-0"
       aria-describedby="room-description-title"
     >
       <h2 id="room-description-title" className="sr-only">

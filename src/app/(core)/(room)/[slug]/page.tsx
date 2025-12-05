@@ -141,7 +141,7 @@ export default async function RoomPage({
             {roomData.name}
           </h1>
 
-          <div className="flex flex-col sm:mt-12 lg:mt-0 lg:flex-col-reverse lg:pb-[8.9375rem]">
+          <div className="flex flex-col sm:mt-12 lg:mt-0 lg:flex-col-reverse lg:pb-35.75">
             <div className="px-4 sm:px-8 lg:px-10">
               <div className="max-w-8xl mx-auto mt-8 lg:mt-0">
                 <FadeInOnScroll>
@@ -181,7 +181,7 @@ export default async function RoomPage({
                   width={1600}
                   height={965}
                   quality={80}
-                  className="aspect-16/9 object-cover sm:aspect-5/3"
+                  className="aspect-video object-cover sm:aspect-5/3"
                   sizes="100vw"
                   placeholder="blur"
                   blurDataURL={extraImage.asset?.metadata?.lqip || ""}

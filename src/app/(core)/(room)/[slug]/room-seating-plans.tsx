@@ -73,12 +73,12 @@ function RoomSeatingPlanItem({
   return (
     <li className={cn("flex flex-col gap-2")}>
       <div className="space-y-2 text-center lg:space-y-6">
-        <h3 className="font-clarika-medium text-[1.25rem] leading-[1.875rem]">
+        <h3 className="font-clarika-medium text-[1.25rem] leading-7.5">
           {name}
         </h3>
         <Illustration
           className={cn(
-            "h-auto max-h-[12.9375rem] w-full sm:max-h-[11.25rem] lg:max-h-[17.8125rem]",
+            "h-auto max-h-51.75 w-full sm:max-h-45 lg:max-h-71.25",
             themeColor === "orange" && "text-primary-700",
             themeColor === "green" && "text-secondary-500",
           )}
@@ -101,12 +101,12 @@ function RoomSeatingPlanCarouselItem({
   return (
     <CarouselItem className={cn("flex basis-3/4 flex-col gap-2 sm:basis-1/2")}>
       <div className="space-y-2 text-center lg:space-y-6">
-        <h3 className="font-clarika-medium text-[1.25rem] leading-[1.875rem]">
+        <h3 className="font-clarika-medium text-[1.25rem] leading-7.5">
           {name}
         </h3>
         <Illustration
           className={cn(
-            "h-auto max-h-[12.9375rem] w-full sm:max-h-[11.25rem] lg:max-h-[17.8125rem]",
+            "h-auto max-h-51.75 w-full sm:max-h-45 lg:max-h-71.25",
             themeColor === "orange" && "text-primary-700",
             themeColor === "green" && "text-secondary-500",
           )}

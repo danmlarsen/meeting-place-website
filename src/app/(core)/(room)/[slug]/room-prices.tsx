@@ -51,7 +51,7 @@ export default function RoomPrices({
       initial="closed"
       whileInView="open"
       viewport={{ once: true, margin: "-100px 0px" }}
-      className="grid gap-6 overflow-x-hidden py-10 sm:grid-cols-[15.0625rem_1fr] sm:pt-12 sm:pb-[3.375rem] lg:grid-cols-[32.625rem_1fr] lg:py-16"
+      className="grid gap-6 overflow-x-hidden py-10 sm:grid-cols-[15.0625rem_1fr] sm:pt-12 sm:pb-13.5 lg:grid-cols-[32.625rem_1fr] lg:py-16"
     >
       <m.h2 variants={titleVariant}>Prices</m.h2>
       <m.ul

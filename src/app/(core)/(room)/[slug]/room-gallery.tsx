@@ -31,7 +31,7 @@ export default function RoomGallery({ images }: { images: TRoomGallery[] }) {
           slidesToScroll: "auto",
         }}
       >
-        <CarouselContent className="mx-auto max-w-[105rem] gap-[0.75rem] px-4 sm:gap-6.5 sm:px-8 lg:gap-8 lg:px-10">
+        <CarouselContent className="mx-auto max-w-420 gap-3 px-4 sm:gap-6.5 sm:px-8 lg:gap-8 lg:px-10">
           {images.map((image, index) => {
             if (!image.asset?.url || !image.asset.metadata?.dimensions)
               return null;
@@ -44,8 +44,8 @@ export default function RoomGallery({ images }: { images: TRoomGallery[] }) {
               <CarouselItem
                 key={`gallery_img_${index}`}
                 className={cn(
-                  "aspect-4/3 max-h-[36.75rem] basis-full items-center overflow-hidden last-of-type:mr-[0.75rem] sm:basis-[39.375rem] sm:last-of-type:mr-6.5 lg:basis-[49rem] lg:last-of-type:mr-8",
-                  isPortrait && "basis-5/8 sm:basis-[22.5rem] lg:basis-[30rem]",
+                  "aspect-4/3 max-h-147 basis-full items-center overflow-hidden last-of-type:mr-3 sm:basis-157.5 sm:last-of-type:mr-6.5 lg:basis-196 lg:last-of-type:mr-8",
+                  isPortrait && "basis-5/8 sm:basis-90 lg:basis-120",
                 )}
               >
                 <m.div

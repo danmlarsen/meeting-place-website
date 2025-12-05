@@ -24,7 +24,7 @@ export default async function Booking() {
           <DialogTitle asChild>
             <h1>{contactInfo?.heading || "Contact us"}</h1>
           </DialogTitle>
-          <DialogDescription className="max-w-[40.5rem]">
+          <DialogDescription className="max-w-162">
             {contactInfo?.text}
           </DialogDescription>
         </DialogHeader>

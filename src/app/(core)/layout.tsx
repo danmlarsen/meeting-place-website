@@ -19,7 +19,7 @@ export default function CoreLayout({
         <div className="max-w-8xl mx-auto">
           <FadeInOnScroll>
             <Separator />
-            <div className="py-10 md:py-12 lg:py-[6.5rem]">
+            <div className="py-10 md:py-12 lg:py-26">
               <BookingHelp />
             </div>
           </FadeInOnScroll>

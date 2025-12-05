@@ -1,5 +1,3 @@
-import Image from "next/image";
-import LogoImage from "@/assets/images/logo.png";
 import { cn } from "@/lib/utils";
 
 export default function SvgLogo({

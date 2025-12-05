@@ -5,13 +5,13 @@ export default async function Footer() {
   const siteSettings = await getSiteSettings();
 
   return (
-    <footer className="bg-cream-300 font-clarika-medium mt-12 grid grid-rows-[1fr_auto] pt-7 md:min-h-[33.75rem] lg:min-h-[46.0625rem]">
+    <footer className="bg-cream-300 font-clarika-medium mt-12 grid grid-rows-[1fr_auto] pt-7 md:min-h-135 lg:min-h-184.25">
       <div className="flex flex-col justify-between gap-y-28 px-4 md:px-8 lg:px-10">
-        <div className="max-w-8xl mx-auto grid w-full grid-cols-2 gap-x-4 gap-y-[4.6875rem] text-sm md:grid-cols-3 lg:grid-cols-[1fr_2fr_1fr] lg:text-lg">
+        <div className="max-w-8xl mx-auto grid w-full grid-cols-2 gap-x-4 gap-y-18.75 text-sm md:grid-cols-3 lg:grid-cols-[1fr_2fr_1fr] lg:text-lg">
           <div>
             <Link
               href="/about-us"
-              className="hover:text-accent-500 leading-[1.5rem] transition-colors duration-200"
+              className="hover:text-accent-500 leading-6 transition-colors duration-200"
             >
               About us
             </Link>
@@ -20,7 +20,7 @@ export default async function Footer() {
             <li>
               <Link
                 href="#"
-                className="hover:text-accent-500 leading-[1.5rem] transition-colors duration-200"
+                className="hover:text-accent-500 leading-6 transition-colors duration-200"
               >
                 Privacy and cookies
               </Link>
@@ -28,7 +28,7 @@ export default async function Footer() {
             <li>
               <Link
                 href="#"
-                className="hover:text-accent-500 leading-[1.5rem] transition-colors duration-200"
+                className="hover:text-accent-500 leading-6 transition-colors duration-200"
               >
                 Terms
               </Link>
@@ -37,7 +37,7 @@ export default async function Footer() {
               <Link
                 href="https://www.danmarius.no"
                 target="_blank"
-                className="hover:text-accent-500 leading-[1.5rem] transition-colors duration-200"
+                className="hover:text-accent-500 leading-6 transition-colors duration-200"
               >
                 Visit danmarius.no
               </Link>
@@ -48,7 +48,7 @@ export default async function Footer() {
               <Link
                 href={siteSettings.addressMapUrl}
                 target="_blank"
-                className="hover:text-accent-500 leading-[1.5rem] transition-colors duration-200"
+                className="hover:text-accent-500 leading-6 transition-colors duration-200"
               >
                 {`${siteSettings?.streetAddress}${!!siteSettings?.addressLocality && `, ${siteSettings?.addressLocality}`}`}
               </Link>
@@ -56,7 +56,7 @@ export default async function Footer() {
           </div>
         </div>
       </div>
-      <div className="mt-[7.3125rem] px-[1.125rem] pb-[1.25rem] md:mt-0 md:px-8 md:pb-9 lg:px-10 lg:pb-10">
+      <div className="mt-29.25 px-4.5 pb-5 md:mt-0 md:px-8 md:pb-9 lg:px-10 lg:pb-10">
         <h2 className="font-ssonder footer-clamp z-10 text-center text-black">
           {siteSettings?.title}
         </h2>

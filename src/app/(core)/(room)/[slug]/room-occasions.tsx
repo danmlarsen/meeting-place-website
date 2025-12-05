@@ -41,7 +41,7 @@ export default function RoomOccasions({
             >
               <AccordionTrigger
                 className={cn(
-                  "hover:text-accent-500 cursor-pointer text-[1.3125rem] leading-[1.625rem] lg:py-6 lg:text-[1.5rem] lg:leading-[2rem]",
+                  "hover:text-accent-500 cursor-pointer text-[1.3125rem] leading-6.5 lg:py-6 lg:text-[1.5rem] lg:leading-8",
                   themeColor === "orange" && "text-primary-700",
                   themeColor === "green" && "text-secondary-500",
                 )}
@@ -51,11 +51,11 @@ export default function RoomOccasions({
                 </h3>
               </AccordionTrigger>
               <AccordionContent className="relative lg:flex lg:flex-wrap lg:items-start lg:justify-between lg:gap-6">
-                <div className="portable-text max-w-[37.5rem] space-y-6">
+                <div className="portable-text max-w-150 space-y-6">
                   <PortableText value={occation.description} />
                 </div>
                 {occation.hasCateringLink && (
-                  <div className="mt-4 lg:mt-0 lg:pr-8 xl:pr-[7.0625rem]">
+                  <div className="mt-4 lg:mt-0 lg:pr-8 xl:pr-28.25">
                     <Button
                       variant="ghost"
                       className="h-7.5 px-0 py-0 sm:col-start-2 lg:h-7.5 lg:px-0"
