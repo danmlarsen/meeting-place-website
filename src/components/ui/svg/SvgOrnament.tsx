@@ -1,10 +1,12 @@
-import { cn } from "@/lib/utils";
+// import { cn } from "@/lib/utils";
 import Image from "next/image";
 import OrnamentImage from "@/assets/images/ornament.png";
 
-export default function SvgOrnament({
-  className,
-}: React.ComponentProps<"svg">) {
+export default function SvgOrnament(
+  {
+    // className,
+  }: React.ComponentProps<"svg">,
+) {
   return (
     // Replaced actual SVG for white-labeling
     <Image
